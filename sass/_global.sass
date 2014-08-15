@@ -1,0 +1,81 @@
+// GLOBAL
+*, *:before, *:after 
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  -ms-box-sizing: border-box
+  -o-box-sizing: border-box
+  box-sizing: border-box
+
+// VARIABLES
+$navBackground: rgb(0, 0, 0)
+$navTextColor: rgb(255, 255, 255)
+$textColor: rgb(15, 15, 15)
+
+// CUSTOM FONTS
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600)
+// serif 
+// headings
+
+// MIXINS
+@mixin borderRadius($radius)
+  -webkit-border-radius: $radius
+  -moz-border-radius: $radius
+  -ms-border-radius: $radius
+  -o-border-radius: $radius
+  border-radius: $radius
+
+@mixin transition($time: 0.3s, $style: linear)
+  -webkit-transition: all $time $style
+  -moz-transition: all $time $style
+  -ms-transition: all $time $style
+  -o-transition: all $time $style
+  transition: all $time $style
+
+@mixin scale($amount: 1.3)
+  -webkit-transform: scale($amount)
+  -moz-transform: scale($amount)
+  -ms-transform: scale($amount)
+  -o-transform: scale($amount)
+  transform: scale($amount)
+
+@mixin openSans
+  font-family: "Open Sans", Helvetica, Arial, sans-serif
+
+// TYPOGRAPHY
+html, body 
+  font-family: "Open Sans"
+  font-weight: 300
+h1
+  font-size: 35px
+  line-height: 150%
+  margin-bottom: 5px
+  letter-spacing: 0.3px
+h2
+  font-size: 30px
+  line-height: 150%
+  margin-bottom: 5px
+  letter-spacing: 0.3px
+h3
+  font-size: 28px
+  line-height: 150%
+  margin-bottom: 5px
+  letter-spacing: 0.3px
+h4
+  font-size: 26px
+  line-height: 150%
+  margin-bottom: 5px
+  letter-spacing: 0.3px
+h5
+  font-size: 23px
+  line-height: 150%
+  margin-bottom: 5px
+  letter-spacing: 0.3px
+h6
+  font-size: 20px
+  line-height: 150%
+  margin-bottom: 5px
+  letter-spacing: 0.3px
+p, a, i
+  font-size: 16px
+  line-height: 150%
+  margin-bottom: 5px

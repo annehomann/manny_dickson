@@ -1,0 +1,42 @@
+$navHeight: 80px
+nav
+	width: 100%
+	height: $navHeight
+	background: $navBackground
+	line-height: $navHeight
+	@include transition(0.3s, linear)
+	div.logo
+		width: 35%
+		float: left
+		img
+			height: 80%
+	div.links
+		width: 65%
+		float: right
+		text-align: right
+		a
+			padding: 0 25px
+			color: $navTextColor
+			@include transition(0.3s, linear)
+			text-decoration: none
+			display: inline-block
+			height: $navHeight
+			line-height: $navHeight
+			&:hover
+				background: rgb(215, 215, 215)
+
+@media (max-width: 1200px)
+	$navHeight: 50px
+	nav
+		height: $navHeight
+		line-height: $navHeight
+		div.links
+			a
+				line-height: $navHeight
+				height: $navHeight
+
+// @media (max-width: 1000px)
+
+// @media (max-width: 800px)
+
+// @media (max-width: 600px)

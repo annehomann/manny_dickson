@@ -1,0 +1,36 @@
+$footHeight: 45px
+footer
+	width: 100%
+	height: $footHeight
+	background: $navBackground
+	line-height: $footHeight
+	position: absolute
+	bottom: 0
+	left: 0
+	div.copyright
+		color: $navTextColor
+		width: 35%
+		float: left
+	div.links
+		width: 65%
+		float: right
+		text-align: right
+		a
+			padding: 0 25px 0 0
+			color: $navTextColor	
+			text-decoration: none
+			display: inline-block
+			height: $footHeight
+			line-height: $footHeight
+			&:hover
+				background: rgb(215, 215, 215)
+
+
+@media (max-width: 1200px)
+	$footHeight: 20px
+
+// @media (max-width: 1000px)
+
+// @media (max-width: 800px)
+
+// @media (max-width: 600px)
