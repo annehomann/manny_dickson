@@ -1,10 +1,16 @@
 $navHeight: 80px
 nav
 	width: 100%
+	position: fixed
+	top: 0
+	left: 0
 	height: $navHeight
 	background: $navBackground
 	line-height: $navHeight
+	z-index: 2908108280808
 	@include transition(0.3s, linear)
+	div
+		height: $navHeight
 	div.logo
 		width: 35%
 		float: left
@@ -26,7 +32,7 @@ nav
 				background: rgb(215, 215, 215)
 
 @media (max-width: 1200px)
-	$navHeight: 50px
+	$navHeight: 50px !global
 	nav
 		height: $navHeight
 		line-height: $navHeight

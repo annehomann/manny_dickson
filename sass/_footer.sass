@@ -4,9 +4,8 @@ footer
 	height: $footHeight
 	background: $navBackground
 	line-height: $footHeight
-	position: absolute
-	bottom: 0
-	left: 0
+	position: relative
+	top: $footHeight
 	div.copyright
 		color: $navTextColor
 		width: 35%
@@ -16,12 +15,15 @@ footer
 		float: right
 		text-align: right
 		a
-			padding: 0 25px 0 0
+			padding: 0 25px
 			color: $navTextColor	
 			text-decoration: none
+			text-align: center
 			display: inline-block
 			height: $footHeight
 			line-height: $footHeight
+			margin-bottom: 0
+			@include transition(0.3s, linear)
 			&:hover
 				background: rgb(215, 215, 215)
 

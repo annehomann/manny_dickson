@@ -1,11 +1,17 @@
 include mixins/_document_head.jade
 include mixins/_nav.jade
+include mixins/_hero_carousel.jade
 include mixins/_footer.jade
+include mixins/_scripts.jade
 
 doctype html
 html
-	mixin documentHead
+	mixin documentHead(Home)
 	body
 		mixin nav
+		mixin heroCarousel
+		div.blurb
+			h2 
+				| Hi!  I am Manny, I am not too bad of a bloke (sometimes).  I met the woman of my dreams on Christians Online.  After the third time I met her I knew that she was the ONE I was to marry. We are very much in love with each other and cannot wait to begin our NEW life together.  We are going to have three kids (John, Isaac and Luke - I don't create females) - but only if she agrees.
 		mixin footer
-		h3 Let's create something together
+		mixin scripts

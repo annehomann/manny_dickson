@@ -1,0 +1,19 @@
+include mixins/_document_head.jade
+include mixins/_nav.jade
+include mixins/_footer.jade
+include mixins/_scripts.jade
+
+doctype html
+html
+	mixin documentHead
+	body
+		mixin nav
+		div.container
+			div.cont-header
+				h3 Let's create something together...
+				p Sydney Studio<br/>Manny Dickson<br/>+61 402 007008<br/>mannydickson.ux@gmail.com<br/>Skype: mannydickson<br/>PO Box 477 Woollahra<br/>Sydney, NSW 1350<br/>Australia
+			div.cont-linked 
+				p LinkedIn link
+
+		mixin footer
+		mixin scripts
