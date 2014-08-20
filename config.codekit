@@ -29,6 +29,26 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/expertise.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/expertise.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/images\/hero-four.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 119462,
+		"inputAbbreviatedPath": "\/images\/hero-four.jpg",
+		"outputAbbreviatedPath": "\/images\/hero-four.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/hero-one.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -44,7 +64,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.16697e+06,
+		"initialSize": 105119,
 		"inputAbbreviatedPath": "\/images\/hero-three.jpg",
 		"outputAbbreviatedPath": "\/images\/hero-three.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -69,6 +89,61 @@
 		"initialSize": 588228,
 		"inputAbbreviatedPath": "\/images\/image.jpeg",
 		"outputAbbreviatedPath": "\/images\/image.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5109,
+		"inputAbbreviatedPath": "\/images\/logo.png",
+		"outputAbbreviatedPath": "\/images\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/manny-portrait.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 650323,
+		"inputAbbreviatedPath": "\/images\/manny-portrait.jpg",
+		"outputAbbreviatedPath": "\/images\/manny-portrait.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/project-appetite.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 220878,
+		"inputAbbreviatedPath": "\/images\/project-appetite.jpg",
+		"outputAbbreviatedPath": "\/images\/project-appetite.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/project-sydneytransport.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 654109,
+		"inputAbbreviatedPath": "\/images\/project-sydneytransport.jpg",
+		"outputAbbreviatedPath": "\/images\/project-sydneytransport.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/project-toyshop.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 442222,
+		"inputAbbreviatedPath": "\/images\/project-toyshop.jpg",
+		"outputAbbreviatedPath": "\/images\/project-toyshop.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -496,15 +571,6 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 1,
 		"useLibsass": false
-		},
-	"\/uxdesign.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/uxdesign.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
