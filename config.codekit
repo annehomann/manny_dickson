@@ -29,31 +29,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/expertise.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/expertise.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/images\/hero-four.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 119462,
-		"inputAbbreviatedPath": "\/images\/hero-four.jpg",
-		"outputAbbreviatedPath": "\/images\/hero-four.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/hero-one.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 847147,
+		"initialSize": 735862,
 		"inputAbbreviatedPath": "\/images\/hero-one.jpg",
 		"outputAbbreviatedPath": "\/images\/hero-one.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -64,7 +44,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 105119,
+		"initialSize": 656286,
 		"inputAbbreviatedPath": "\/images\/hero-three.jpg",
 		"outputAbbreviatedPath": "\/images\/hero-three.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -75,20 +55,9 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 255038,
+		"initialSize": 371309,
 		"inputAbbreviatedPath": "\/images\/hero-two.jpg",
 		"outputAbbreviatedPath": "\/images\/hero-two.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/image.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 588228,
-		"inputAbbreviatedPath": "\/images\/image.jpeg",
-		"outputAbbreviatedPath": "\/images\/image.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -115,46 +84,35 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/project-appetite.jpg": {
+	"\/images\/project-one.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 220878,
-		"inputAbbreviatedPath": "\/images\/project-appetite.jpg",
-		"outputAbbreviatedPath": "\/images\/project-appetite.jpg",
+		"initialSize": 353105,
+		"inputAbbreviatedPath": "\/images\/project-one.jpg",
+		"outputAbbreviatedPath": "\/images\/project-one.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/project-sydneytransport.jpg": {
+	"\/images\/project-three.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 654109,
-		"inputAbbreviatedPath": "\/images\/project-sydneytransport.jpg",
-		"outputAbbreviatedPath": "\/images\/project-sydneytransport.jpg",
+		"initialSize": 304472,
+		"inputAbbreviatedPath": "\/images\/project-three.jpg",
+		"outputAbbreviatedPath": "\/images\/project-three.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/project-toyshop.jpg": {
+	"\/images\/project-two.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 442222,
-		"inputAbbreviatedPath": "\/images\/project-toyshop.jpg",
-		"outputAbbreviatedPath": "\/images\/project-toyshop.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/vin_diesel.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 12728,
-		"inputAbbreviatedPath": "\/images\/vin_diesel.jpg",
-		"outputAbbreviatedPath": "\/images\/vin_diesel.jpg",
+		"initialSize": 151026,
+		"inputAbbreviatedPath": "\/images\/project-two.jpg",
+		"outputAbbreviatedPath": "\/images\/project-two.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -252,6 +210,28 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/mixins\/_nav.jade",
 		"outputAbbreviatedPath": "\/jade\/mixins\/_nav.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/jade\/mixins\/_nav_normal.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/mixins\/_nav_normal.jade",
+		"outputAbbreviatedPath": "\/jade\/mixins\/_nav_normal.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/jade\/mixins\/_nav_scrolled.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/mixins\/_nav_scrolled.jade",
+		"outputAbbreviatedPath": "\/jade\/mixins\/_nav_scrolled.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
@@ -607,6 +587,15 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 1,
 		"useLibsass": false
+		},
+	"\/uxdesign.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/uxdesign.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [

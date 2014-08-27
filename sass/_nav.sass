@@ -1,23 +1,29 @@
 $navHeight: 80px
+nav.static
+	position: absolute
+	top: 0
+	left: 0
+
 nav
 	width: 100%
 	position: fixed
-	top: 0
+	top: -100px
 	left: 0
 	height: $navHeight
-	background: $navBackground
+	// background: $navBackground
+	background: none
 	line-height: $navHeight
 	z-index: 2908108280808
-	@include transition(0.3s, linear)
+	-webkit-transition: width 0.3s, height 0.3s, color 0.3s
+	-moz-transition: width 0.3s, height 0.3s, color 0.3s
+	-ms-transition: width 0.3s, height 0.3s, color 0.3s
+	-o-transition: width 0.3s, height 0.3s, color 0.3s
+	transition: width 0.3s, height 0.3s, color 0.3s
 	div
 		height: $navHeight
-	div.logo
-		width: 35%
-		float: left
-		margin-top: 9px
-		margin-left: 15px
-		img
-			height: 80%
+	div.clear
+		height: 0
+		width: 100%
 	div.links
 		width: 65%
 		float: right
@@ -32,16 +38,54 @@ nav
 			display: inline-block
 			height: $navHeight
 			line-height: $navHeight
+	div.logo
+		width: 35%
+		float: left
+		margin-left: 15px
+		div
+			svg
+				height: 100%
+				max-width: 300px
+				path
+					stroke: white
+					fill: white
+
+nav.scrolled
+	background: white
+	div.links
+		a
+			color: black
+	div.logo
+		div
+			svg
+				path
+					stroke: black
+					fill: black
+
+nav.non-static.scrolled.normal
+	border-bottom: 1px solid #b8b8b8
+	top: 0
 
 @media (max-width: 1200px)
 	$navHeight: 50px !global
-	nav
+	nav.non-static
 		height: $navHeight
 		line-height: $navHeight
 		div.links
 			a
 				line-height: $navHeight
 				height: $navHeight
+	nav.scrolled
+		background: white
+		div.links
+			a
+				color: black
+		div.logo
+			div
+				svg
+					path
+						stroke: black
+						fill: black
 
 // @media (max-width: 1000px)
 
