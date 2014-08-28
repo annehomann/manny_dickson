@@ -1,0 +1,117 @@
+include mixins/_document_head.jade
+include mixins/_nav.jade
+include mixins/_nav_normal.jade
+include mixins/_hero_carousel.jade
+include mixins/_footer.jade
+include mixins/_scripts.jade
+
+doctype html
+html
+	mixin documentHead
+	body
+		mixin navNormal
+		div.container
+			div.heuristic-an-text
+				h3 Heuristic Analysis:
+				p A heuristic Analysis Report was carried out on the existing Transport NSW Website. Key findings were recorded and used. 
+			div.heuristic-an-image
+				img(src="../images/TN-HeuristicAnalysis.jpg", alt="Manny")
+			div.comp-an-text
+				h3 Competitive Analysis:
+				p An analysis of competitive apps &amp; sites was created to discover key similarities and differences.<br />Key Take aways were:
+				ul
+					li Reminders and alarms
+					li Ability to reverse your journey
+					li Offline functionality
+					li Live Tracking
+					li Ability to communicate your ETA
+			div.comp-an-image
+				img(src="../images/TN-CompetitiveAnalysis.jpg", alt="Manny")
+			div.context-survey-text
+				h3 Contextual Inquiry:
+				p Contextual Inquiry was conducted around Sydney to better understand the public transport user both on and off peak.
+			div.context-survey-image
+				img(src="../images/TN-ContextualInquiry.jpg", alt="Manny")
+			div.online-survey-text
+				h3 Online Surveys:
+				p An online survey was built and distributed with over 100 completed replies. It was distributed to the general public through social media platforms.<br />The questions were built on a variety of general and personal questions in regards to why, when and how they travel and with what devices/technology.
+			div.online-survey-image
+				img(src="../images/TN-OnlineSurveys.jpg", alt="Manny")
+			div.data-sort-text
+				h3 Data Sorting:
+				p Data sorting was conducted after the survey was closed. Key insights of information was collected.<br />Categories for Sydney public transport dislike, improvements and likes were grouped.<br />Key statistics consisted of:
+				ul
+					li 76% of all commuters feel safe while traveling in Sydney
+					li 66% of travellers used their smartphone on public transport
+					li 100% of smartphone owners use an app for their travels
+					li 80% of transport commuters do not have children
+					li 55% of all commuters do so for convenience 
+			div.data-sort-image
+				img(src="../images/TN-DataSorting.jpg", alt="Manny")
+			div.feature-pri-text
+				h3 Feature Prioritization:
+				p Key insights were ordered in priority. These pain-points  were then scaled in order of essential for the proposed solution.<br />We decided that the most important features to have were:
+				ul
+					li City of Sydney Events Promotions
+					li Live Tracking
+					li Scheduling &amp; Reminders
+					li Service Announcements
+					li Request a Service
+					li Trip Calculator
+			div.feature-pri-image
+				img(src="../images/TN-FeaturePrioritasion.jpg", alt="Manny")
+			div.persona-text
+				h3 Personas:
+				p Personas were created to better understand the behaviours of Sydney commuters.<br />Each persona had their motivations, pain points and unique behaviours outlined. 
+			div.persona-image
+				img(src="../images/TN-Personas.jpg", alt="Manny")
+			div.scenario-text
+				h3 Scenarios:
+				p Scenarios were created to map the typical journeys of users. 
+			div.scenario-image
+				img(src="../images/TN-Scenarios.jpg", alt="Manny")
+			div.task-flow-text
+				h3 Task Flows:
+				p From the scenarios created, task flows were constructed.<br />These portrayed the habits the two users would take while using features of the new mobile application.
+			div.task-flow-image
+				img(src="../images/TN-TaskFlows.jpg", alt="Manny")
+			div.site-map-text
+				h3 Site Map:
+				p A site map was created to explain the global navigation for the mobile application.<br />This depicted the main features and ways of accessing information. 
+			div.site-map-image
+				img(src="../images/TN-SiteMap.jpg", alt="Manny")
+			div.design-studio-text
+				h3 Design Studio:
+				p Sketching and testing at every stage of development became crucial to the success of the concept.<br />Sketches started at a very low fidelity and were improved for testing and feedback. 
+			div.design-studio-image
+				img(src="../images/TN-DesignStudioSketches.jpg", alt="Manny")
+			div.wire-proto-text
+				h3 Wireframe Prototype:
+				p Wireframes were built in Axure Pro after design sketching became clear.<br />These were developed into an interactive version that we tested with users.
+			div.wire-proto-image
+				img(src="../images/TN-WireframePrototypes.jpg", alt="Manny")
+			div.user-test-text
+				h3 User Testing:
+				p New users were introduced to the mobile prototype. They were asked to perform a list of activities and left to navigate by themselves.<br />Key Takeaways were:
+				ul
+					li App navigation was simple and logical
+					li Users were able to plan their trips easily
+					li Events were an exciting feature
+					li The map function was familiar and easy to use
+					li Titles of main functions need to be renamed as were confusing 
+					li Users were uncomfortable entering their location on request-a-service
+					li Form field suggested for ‘request-a-service’
+			div.user-test-image
+				img(src="../images/TN-UserTesting.jpg", alt="Manny")
+			div.client-pres-text
+				h3 Client Presentation:
+				p At the end of the 2.0 week project, the team presented the key findings and prototype to General Assembly. 
+			div.client-pres-image
+				img(src="../images/TN-Client-Presentation.jpg", alt="Manny")
+
+
+
+
+
+		mixin footer
+		mixin scripts

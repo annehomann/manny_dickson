@@ -1,5 +1,6 @@
 include mixins/_document_head.jade
 include mixins/_nav.jade
+include mixins/_nav_normal.jade
 include mixins/_footer.jade
 include mixins/_scripts.jade
 
@@ -7,11 +8,11 @@ doctype html
 html
 	mixin documentHead
 	body
-		mixin nav
+		mixin navNormal
 		div.container
 			div.bg-text
 				h3 Background:
-				p Growing up in Sydney in the 1980&#039;s, I spent most of my childhood playing with lego or running around with a tool belt pretending to build houses. From a young age I was fascinated with making and building things. As I matured this passion turned into skills that have paved the way for my creative career. I have an enthusiasm for photography, I own a pretty impressive collection of ties and I am currently learning the ukulele
+				p Growing up in Sydney in the 1980&#039;s, I spent most of my childhood playing with lego or running around with a tool belt pretending to build houses. From a young age I was fascinated with making and building things. As I matured, this passion turned into skills that have paved the way for my creative career. I have an enthusiasm for photography, I own a pretty impressive collection of ties and I am currently learning the ukulele
 			div.bg-image
 				img(src="../images/manny-portrait.jpg", alt="Manny")
 			div.edu-text
@@ -49,7 +50,6 @@ html
 				img(src="../images/hyundai.png", alt="Logo")
 			div.row-two-logos
 				img(src="../images/lexus.png", alt="Logo")
-				img(src="../images/livewire.png", alt="Logo")
 				img(src="../images/nrma.png", alt="Logo")
 				img(src="../images/opsm.png", alt="Logo")
 				img(src="../images/philips.png", alt="Logo")
@@ -57,8 +57,8 @@ html
 				img(src="../images/royalrehabilitationsydney.jpg", alt="Logo")
 				img(src="../images/saatchi.jpg", alt="Logo")
 				img(src="../images/salamon.png", alt="Logo")
-			div.row-two-logos
 				img(src="../images/sunbeam.png", alt="Logo")
+			div.row-two-logos
 				img(src="../images/talontools.jpg", alt="Logo")
 				img(src="../images/toyota.png", alt="Logo")
 				img(src="../images/vicsmeat.jpg", alt="Logo")
